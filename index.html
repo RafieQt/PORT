@@ -1,27 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="/styles/design.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/design.css">
 </head>
-<body>
-    <header>
+
+<body class="open-sans-normal">
+    <header class="header sec-bg">
         <nav class="bar">
-            <h2>Rafi</h2>
+            <h3 class="nav-title">Ra<span class="orange">f</span>i</h3>
             <ul>
-                <li>Portfolio</li>
-                <li>Blog</li>
-                <li><button>Hire me!</button></li>
+                <li><a class="dark1" href="">Portfolio</a></li>
+                <li><a class="dark1" href="">Blog</a></li>
+                <li><a href=""><button class="btn-ora">Hire me!</button></a></li>
             </ul>
         </nav>
+        <div class="banner">
+            <div class="banner-con">
+                <h4 class="banner-greet dark1">Hi, I am</h4>
+                <h1 class="banner-title">Rafi</h1>
+                <p class="banner-des">
+                    Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society
+                    behaved moments.
+                </p>
+                <button class="btn-ora">Download CV</button>
+                <button class="btn-ora">Contact</button>
+            </div>
+            <div class="banner-img">
+                <img class="banner-pic" src="images/hardy.png" alt="">
+            </div>
+        </div>
     </header>
     <main>
+        <section class="about sec-bg">
+            <h3 class="section-title">About Me</h3>
+            <p class="section-des">I, m a designer & developer with a passion for web design. I enjoy developing simple,
+                clean and slick websites that provide real value to the end user. Thousands of clients have procured
+                exceptional resulfs while working with me. Delivering work within time and budget which meets clients
+                requirements in our mata.</p>
+            <div class="about-items">
+                <div class="about-item">
+                    <p class="item-title">name</p>
+                    <p class="item-des">Rafi</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Email</p>
+                    <p class="item-des">abc@gmail.com</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Date of birth</p>
+                    <p class="item-des">dec23, 2003</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">From</p>
+                    <p class="item-des">Daka</p>
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <h3 class="section-title text-center">What I do</h3>
+            <p class="section-des text-center">I have more than 10 years experience building software for clients all
+                over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want
+                to find out more about my experience? Check out my online resume and project portfolio.
+            </p>
+            <div class="skill-container">
+                <div class="skill">
+                    <img src="images/icons/js.png" alt="">
+                    <h4 class="skill-title">Vanilla JavaScript</h4>
+                    <p class="skill-des">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/react.png" alt="">
+                    <h4 class="skill-title">React</h4>
+                    <p class="skill-des">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/nodejs.png" alt="">
+                    <h4 class="skill-title">Node.js</h4>
+                    <p class="skill-des">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skill">
+                    <img src="/images/icons/mongo.png" alt="">
+                    <h4 class="skill-title">MongoDB</h4>
+                    <p class="skill-des">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+            </div>
 
+        </section>
+        <section class="resume">
+            <h3 class="section-title">A Summary of my Resume</h3>
+            <div class="res-container">
+                <div class="resume-col">
+                    <h3 class="res-col-title">My education</h3>
+                    <div class="experience">
+                        <h4 class="exp-title">Master in Computer Engineering</h4>
+                        <h4 class="exp-sub">Harvard University / 2015 - 2017</h4>
+                        <div class="exp-des">List skill/technologies here. You can change the icon above 
+to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="exp-title">Master in Computer Engineering</h4>
+                        <h4 class="exp-sub">Harvard University / 2015 - 2017</h4>
+                        <div class="exp-des">List skill/technologies here. You can change the icon above 
+to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="exp-title">Lorem ipsum dolor sit amet.</h4>
+                        <h4 class="exp-sub">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In!</h4>
+                        <div class="exp-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi cum rem minima, est saepe nulla, totam magni consectetur ullam accusamus officia corporis ipsa!</div>
+                    </div>
+                </div>
+                <div class="resume-col">
+                    <h3 class="res-col-title">My experience</h3>
+                    <div class="experience">
+                        <h4 class="exp-title">Grad in CSE</h4>
+                        <h4 class="exp-sub">AIUB/2023-2026</h4>
+                        <div class="exp-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis similique impedit consectetur, corrupti architecto natus ut at, nihil deleniti perferendis enim, maiores in.</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="exp-title">Grad in CSE</h4>
+                        <h4 class="exp-sub">AIUB/2023-2026</h4>
+                        <div class="exp-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis similique impedit consectetur, corrupti architecto natus ut at, nihil deleniti perferendis enim, maiores in.</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="exp-title">Grad in CSE</h4>
+                        <h4 class="exp-sub">AIUB/2023-2026</h4>
+                        <div class="exp-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis similique impedit consectetur, corrupti architecto natus ut at, nihil deleniti perferendis enim, maiores in.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center download-cv">
+
+                <button class="btn-ora">Download CV!</button>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="sec-bg">
+        <div class="footer-col">
+            <div class="section-title">Lets connect</div>
+            <p>
+                Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
+            </p>
+            <div>
+                <a href=""><img src="images/icons/facebook.png" alt=""></a>
+                <a href=""><img src="images/icons/insta.png" alt=""></a>
+                <a href=""><img src="images/icons/twitter.png" alt=""></a>
+            </div>
+        </div>
+        <div class="footer-col">
+            <h3 class="section-title">Message me</h3>
+            <form action="">
+                <input type="text" name="" id="" placeholder="Your Name">
+                <input type="email" name="" id="" placeholder="Your mail">
+                <textarea name="" id="" cols="30" rows="20" placeholder="Message"></textarea>
+                <input class="btn-ora" type="submit" value="Submit">
+            </form>
+        </div>
     </footer>
 </body>
+
 </html>
