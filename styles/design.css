@@ -182,3 +182,9 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     margin-bottom: 24px;
     border: none;
 }
+
+.foot-title{
+     font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
